@@ -12,13 +12,7 @@ const Hotel = () => {
 
   const [hotels, setHotels] = useState([]);
   const [filteredHotels, setFilteredHotels] = useState([]);
-  // const numbers = [
-  //   'Pokhreli Home',
-  //   'Gauthali Home',
-  //   'Restaurant',
-  //   'Sagar Restaurant and lodge',
-  //   'Ajju Restro and Karkhana',
-  // ];
+ 
   const [suggested, setSuggested] = useState([]);
   const handleGetOfferHotels = async () => {
     try {
@@ -64,25 +58,7 @@ const Hotel = () => {
     console.log(!data.filterTerm && !data.state);
   }, [data.state, data.filterTerm]);
 
-  // useEffect(() => {
-  //   setFilteredHotels((prev) =>
-  //     prev.filter(
-  //       (item) =>
-  //         item.averageCost >= filter.range.min &&
-  //         item.averageCost <= filter.range.max &&
-  //         item.averageRating >= filter.star &&
-  //         item.hotel_features.filter((element) =>
-  //           filter.features.includes(element)
-  //         ).length === filter.features.length
-  //     )
-  //   );
-  // }, [
-  //   filter.range.min,
-  //   filter.range.max,
-  //   hotels,
-  //   filter.star,
-  //   filter.features,
-  // ]);
+ 
 
   console.log(filteredHotels, "zock");
 
@@ -108,7 +84,7 @@ const Hotel = () => {
                     <h1 className="font-semibold">{option.name}</h1>
                     <p className="">{option.description}</p>
                     <p className="mt-3 font-medium">
-                      {option.totalReviews} reviews
+                      {option.totalReviews} Reviews
                     </p>
 
                     <div className="my-2">
@@ -144,11 +120,11 @@ const Hotel = () => {
             <Link to={`/hoteldescription/${item.hotel_id}`}>
               <div className="mt-5 flex w-full flex-wrap rounded-md bg-[#F5F5F5] lg:w-2/3">
                 <div className="border-box w-full rounded-md sm:w-[18vw]">
-                  <img
+                  {/* <img
                     src={Logo}
                     alt="List1"
                     className="h-full w-full rounded-md object-none"
-                  />
+                  /> */}
                 </div>
                 <div className="w-full px-6 py-3 text-justify sm:w-3/6">
                   <h1 className="font-semibold">{item.name}</h1>

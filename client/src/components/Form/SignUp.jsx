@@ -80,8 +80,8 @@ const SignUp = () => {
         />
         <div className="absolute px-10">
           <div className="m-auto flex-row justify-center">
-            <h1 className=" text-center text-[40px] text-zinc-50 ">Hello</h1>
-            <p className="text-center text-zinc-300">Want to join us</p>
+            <h1 className=" text-center text-[40px] text-zinc-50 ">Hello! Welcome to Kaha Basney Aaja</h1>
+            <p className="text-center text-zinc-300">Mind joining us?</p>
           </div>
 
           <div className="flex items-center justify-center">

@@ -24,6 +24,7 @@ const Footer = () => {
                 Call Now
               </h1>
               <p>Chabahil, Kathmandu</p>
+              <p>066520951, 066520455</p>
             </div>
             <div className="w-content leading-10 text-gray-300">
               <h1 className="mb-5 text-[2rem] font-semibold text-white">
