@@ -98,9 +98,9 @@ export async function addRoomOfferService({
       for (let i = 0; i < users.length; i++) {
            sendMessageFromMail(
           `Have you checked out new Offer of ${offer} in ${room?.room_number} of hotel:${hotel?.name} `,
-          "Willowdale Notification service",
+          "Kaha Basney Aaja Notification service",
           users[i].email,
-          "info@willowdale.com"
+          "pradh21@gmail.com"
         );
       }
       return {

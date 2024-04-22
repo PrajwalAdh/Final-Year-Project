@@ -187,7 +187,7 @@ const CarDetails = () => {
                 setFreeIncludes((prev) => [...prev, e.target.value])
               }
             />
-            Collision damage waiver
+            Loss Damage Waiver (LDW)
           </div>
           <div className="flex gap-2">
             <input
@@ -198,7 +198,7 @@ const CarDetails = () => {
                 setFreeIncludes((prev) => [...prev, e.target.value])
               }
             />
-            Theft protection
+            Roadside Assistance
           </div>
           <div className="flex gap-2">
             <input

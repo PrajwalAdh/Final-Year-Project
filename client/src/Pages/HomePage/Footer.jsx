@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="copyright grid place-items-center text-white">
-            <small className="m-auto mt-5">Copyright &copy; 2024</small>
+            <small className="m-auto mt-5">Copyright to Kaha Basney Aaja &copy; 2024</small>
           </div>
         </div>
       </div>

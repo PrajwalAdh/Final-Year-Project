@@ -431,7 +431,7 @@ export async function rentCarService({
           undefined,
           findCar.car_number,
           email,
-          "nischal0407@xavier.edu.np"
+          "pradh21@gmail.com"
         );
 
         return {
