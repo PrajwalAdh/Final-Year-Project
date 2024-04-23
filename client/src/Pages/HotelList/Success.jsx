@@ -11,7 +11,7 @@ const Success = () => {
           Payment Successful
         </h1>
         <p className="text-center">
-          Congrats your payment have been Successful
+          Congratulations your payment is Successful.
         </p>
       </div>
     </>

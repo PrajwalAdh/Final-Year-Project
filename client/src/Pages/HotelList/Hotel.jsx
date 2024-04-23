@@ -113,7 +113,7 @@ const Hotel = () => {
           </div>
         );
       })}
-      <p className="mx-5 mt-3 md:mx-14 lg:mx-20">Suggested "Hotel"</p>
+      <p className="mx-5 mt-3 md:mx-14 lg:mx-20">Hotels for you</p>
       {suggested.map((item) => (
         <div className="my-2 mx-5 md:mx-14 lg:mx-20">
           <div>
